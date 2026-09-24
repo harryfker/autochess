@@ -1,0 +1,12 @@
+{
+  "name": "yunyu-tavern",
+  "version": "2.9.5",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
+ 

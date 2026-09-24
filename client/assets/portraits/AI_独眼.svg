@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" width="176" height="176"><defs>
+<radialGradient id="pbgai独眼" cx="0.5" cy="0.35" r="0.9">
+  <stop offset="0" stop-color="#D9D7D1"/><stop offset="1" stop-color="#5F5E59"/>
+</radialGradient>
+<clipPath id="pcai独眼"><circle cx="88" cy="88" r="76"/></clipPath>
+</defs>
+<circle cx="88" cy="88" r="84" fill="#8C8A84" stroke="#3A3128" stroke-width="4"/>
+<circle cx="88" cy="88" r="76" fill="url(#pbgai独眼)" stroke="#FFFFFF55" stroke-width="2"/><g clip-path="url(#pcai独眼)"><path d="M 88 42 Q 118 46 120 80 Q 121 108 112 124 Q 98 132 88 132 Q 78 132 64 124 Q 55 108 56 80 Q 58 46 88 42 Z M 60 62 L 116 62 Q 116 48 88 46 Q 60 48 60 62 Z M 84 62 L 84 84 L 92 84 L 92 62 Z M 116 74 L 148 54 L 152 62 L 124 84 Z" fill="#3A3128" stroke="#1A1610" stroke-width="2.5" stroke-linejoin="round"/><circle cx="88" cy="72" r="5" fill="#FFE45C" stroke="none" stroke-width="0"/><circle cx="88" cy="72" r="10.5" fill="#FFE45C" stroke="none" stroke-width="0" opacity="0.3"/></g><path d="M 26 128 Q 88 118 150 128 L 150 150 Q 88 162 26 150 Z" fill="#2A2620" opacity="0.92" stroke="#3A3128" stroke-width="2.4"/><text x="88" y="143" font-family="'ZCOOL KuaiLe','Baloo 2','Yuanti SC','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#FFF6E0" text-anchor="middle" font-weight="bold" >独眼</text><text x="88" y="156" font-family="'ZCOOL KuaiLe','Baloo 2','Yuanti SC','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-size="10.5" fill="#C9B98A" text-anchor="middle" font-weight="bold" >佣兵队长 · 混编</text></svg>

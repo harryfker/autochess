@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<!-- ★V9 联机版：同源托管于 /yuyu/（清洁地址 /yuyu 经 rewrite 进入）
+     ★V2.3 修复：补回 base 锚定（清洁地址 /yuyu 无尾斜杠时相对路径 js/css 会解析到
+     根路径 /js/ /css/ 而 404，导致全部按钮无响应——base 强制资源根回到 /yuyu/） -->
+<base href="/yuyu/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>云屿酒馆 · 金杯令争霸赛</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2.9">
+</head>
+<body>
+  <div id="viewport">
+    <div id="stage">
+
+      <!-- ===== 主页（V9 联机版新增：单人 / 多人分流） ===== -->
+      <section id="screen-home" class="screen">
+        <div class="hero-title">
+          <div class="title-main">云屿酒馆</div>
+          <div class="title-sub">— 金杯令争霸赛 · 6 人局 —</div>
+          <div class="title-tip">选择一种模式开启你的争霸之旅</div>
+        </div>
+        <div class="home-modes">
+          <button id="btn-mode-single" class="home-mode panel">
+            <div class="hm-icon">🍺</div>
+            <div class="hm-name">单人游戏</div>
+            <div class="hm-desc">与 5 位 AI 酒客对局</div>
+          </button>
+          <button id="btn-mode-multi" class="home-mode panel">
+            <div class="hm-icon">🤝</div>
+            <div class="hm-name">多人游戏</div>
+            <div class="hm-desc">创建房间，与好友同台竞技</div>
+          </button>
+        </div>
+        <div class="footer-note">Q版矢量风 · 80 种随从 · 3 部族 · 云屿酒馆 V2.9</div>
+      </section>
+
+      <!-- ===== 多人大厅（V9 新增） ===== -->
+      <section id="screen-lobby" class="screen hidden">
+        <div class="hero-title">
+          <div class="title-main">多人大厅</div>
+          <div class="title-tip">创建房间邀请好友，或凭房间号加入</div>
+        </div>
+        <div class="lobby-panel panel">
+          <div class="lobby-row">
+            <label class="lobby-label" for="mp-nick">你的昵称</label>
+            <input id="mp-nick" class="lobby-input" type="text" maxlength="12" placeholder="输入昵称（本机记住）">
+          </div>
+          <button id="btn-create-room" class="btn btn-primary btn-big lobby-create">🏛 创建房间</button>
+          <div class="lobby-div"><span>或加入好友房间</span></div>
+          <div class="lobby-row">
+            <input id="mp-join-code" class="lobby-input lobby-code" type="text" maxlength="6" placeholder="输入 6 位房间号" autocapitalize="characters">
+            <button id="btn-join-room" class="btn btn-primary">加入房间 →</button>
+          </div>
+          <div id="lobby-msg" class="lobby-msg"></div>
+        </div>
+        <button id="btn-lobby-back" class="btn btn-back">← 返回主页</button>
+      </section>
+
+      <!-- ===== 等待房（V9 新增：双方选英雄，房主配置，齐备后开局） ===== -->
+      <section id="screen-room" class="screen hidden">
+        <header class="room-head">
+          <div class="room-code-box panel">
+            <div class="room-code-label">房间号</div>
+            <div id="room-code" class="room-code">——</div>
+          </div>
+          <button id="btn-copy-code" class="btn btn-primary">📋 复制房间号</button>
+        </header>
+        <div class="room-players">
+          <div class="room-seat panel" id="seat-host">
+            <div class="seat-name" id="seat-host-name">房主</div>
+            <div class="seat-heroes" id="seat-host-heroes"></div>
+            <div class="seat-status" id="seat-host-status"></div>
+          </div>
+          <div class="room-vs">VS</div>
+          <div class="room-seat panel" id="seat-guest">
+            <div class="seat-name" id="seat-guest-name">等待对手…</div>
+            <div class="seat-heroes" id="seat-guest-heroes"></div>
+            <div class="seat-status" id="seat-guest-status"></div>
+          </div>
+        </div>
+        <div class="room-settings panel">
+          <div class="opt-group" id="mp-opt-difficulty"></div>
+          <div class="opt-group" id="mp-opt-timer"></div>
+        </div>
+        <div class="room-foot">
+          <div id="room-status" class="room-status">正在同步房间…</div>
+          <button id="btn-room-start" class="btn btn-primary btn-big" disabled>开 始 游 戏</button>
+        </div>
+        <div class="room-link-hint">💡 把这个链接发给另一台设备即可加入：<span id="room-share-link"></span></div>
+        <button id="btn-room-back" class="btn btn-back">← 退出房间</button>
+      </section>
+
+      <!-- ===== 选英雄 ===== -->
+      <section id="screen-hero" class="screen hidden">
+        <div class="hero-title">
+          <div class="title-main">云屿酒馆</div>
+          <div class="title-sub">— 金杯令争霸赛 · 6 人局 —</div>
+          <div class="title-tip">招募随从 → 调整站位 → 自动战斗 → 三张同名合成升级，活到最后的人赢得酒馆！</div>
+        </div>
+        <div id="hero-cards" class="hero-cards"></div>
+        <div class="hero-options">
+          <div class="opt-group" id="opt-difficulty"></div>
+          <div class="opt-group" id="opt-timer"></div>
+          <div class="opt-group" id="opt-records"></div>
+        </div>
+        <button id="btn-start" class="btn btn-primary btn-big">开 始 游 戏</button>
+        <div class="footer-note">Q版矢量风 · 80 种随从 · 3 部族 · 云屿酒馆 V2.9</div>
+      </section>
+
+      <!-- ===== 招募 ===== -->
+      <section id="screen-recruit" class="screen hidden">
+        <header id="rc-top" class="rc-top"></header>
+        <!-- ★V7 左侧血量实时排行榜（学炉石：按血量降序，下轮对手靠右错位+剑标记） -->
+        <div id="rc-rank" class="rc-rank"></div>
+        <div id="rc-opponent" class="rc-opponent"></div>
+        <div class="rc-board-zone">
+          <div id="rc-board-label" class="rc-board-label"></div>
+          <div id="rc-board" class="rc-board"></div>
+          <div id="rc-hand-label" class="rc-hand-label">手牌（不参战）</div>
+          <div id="rc-hand" class="rc-hand"></div>
+          <div id="rc-sellzone" class="rc-sellzone"><span>🪙 拖到此处卖出（+1 金）</span></div>
+        </div>
+        <footer class="rc-shop">
+          <div class="shop-head">
+            <div class="shop-title">云屿酒馆</div>
+            <div id="rc-shop-lv" class="shop-lv"></div>
+            <div class="shop-controls">
+              <button id="btn-refresh" class="shop-btn"><span>刷新 1金</span></button>
+              <button id="btn-freeze" class="shop-btn"><span>冻结 ❄</span></button>
+              <button id="btn-upgrade" class="shop-btn"><span>升级酒馆 5金</span><span class="sub"></span></button>
+              <button id="btn-battle" class="shop-btn primary">开始战斗 →</button>
+            </div>
+          </div>
+          <div id="shop-cards" class="shop-cards"></div>
+        </footer>
+      </section>
+
+      <!-- ===== 战斗 ===== -->
+      <section id="screen-battle" class="screen hidden">
+        <header id="bt-top" class="bt-top"></header>
+        <div class="bt-board-zone">
+          <div id="bt-board-b" class="bt-board"></div>
+        </div>
+        <div class="bt-mid">
+          <div class="bt-surv" id="bt-surv-b">存活 <b>7</b></div>
+          <div class="bt-vs">VS</div>
+          <div class="bt-surv" id="bt-surv-a">存活 <b>7</b></div>
+        </div>
+        <div class="bt-board-zone">
+          <div id="bt-board-a" class="bt-board"></div>
+        </div>
+        <footer class="bt-log">
+          <span id="bt-log-text">战斗即将开始…</span>
+          <div id="bt-speed" class="bt-speed"></div>
+        </footer>
+      </section>
+
+      <!-- ===== 回合结算 ===== -->
+      <section id="screen-settle" class="screen hidden">
+        <header id="st-banner" class="st-banner"></header>
+        <div class="st-cols">
+          <div id="st-fights" class="panel st-col"></div>
+          <div id="st-hp" class="panel st-col"></div>
+        </div>
+        <div id="st-actions" class="st-actions"></div>
+      </section>
+
+      <!-- ===== 终局结算 ===== -->
+      <section id="screen-over" class="screen hidden">
+        <header id="ov-banner" class="ov-banner"></header>
+        <div class="ov-cols">
+          <div id="ov-ranking" class="panel ov-col"></div>
+          <div class="ov-right">
+            <div id="ov-order" class="panel"></div>
+            <div id="ov-stats" class="panel"></div>
+          </div>
+        </div>
+        <div id="ov-actions" class="st-actions"></div>
+      </section>
+
+      <!-- ===== 浮层 ===== -->
+      <div id="target-banner" class="target-banner hidden"></div>
+      <svg id="fx-svg" class="fx-svg"></svg>
+      <div id="fx-layer" class="fx-layer"></div>
+      <div id="tooltip" class="tooltip hidden"></div>
+      <div id="modal-discover" class="modal hidden"></div>
+      <div id="merge-ceremony" class="merge-ceremony hidden"></div>
+      <div id="mp-guest-overlay" class="mp-guest-overlay hidden">
+        <div class="mp-guest-card panel">
+          <div class="mp-guest-title">🎉 对局已开始</div>
+          <div class="mp-guest-text">主机端正在引领本局对战。<br>双人实时同步对战将在下一轮上线，敬请期待！</div>
+          <button id="btn-guest-leave" class="btn btn-primary">返回大厅</button>
+        </div>
+      </div>
+      <div id="toasts" class="toasts"></div>
+      <div id="loader" class="loader hidden">加载中…</div>
+    </div>
+  </div>
+
+  <script src="js/data.js?v=2.9"></script>
+  <script src="js/icons.js?v=2.9"></script>
+  <script src="js/pool.js?v=2.9"></script>
+  <script src="js/effects.js?v=2.9"></script>
+  <script src="js/battle.js?v=2.9"></script>
+  <script src="js/ai.js?v=2.9"></script>
+  <script src="js/game.js?v=2.9"></script>
+  <script src="js/recorder.js?v=2.9"></script>
+  <script src="js/embedded-assets.js?v=2.9"></script>
+  <script src="js/assets.js?v=2.9"></script>
+  <script src="js/ui.js?v=2.9"></script>
+  <script src="js/multi.js?v=2.9"></script>
+</body>
+</html>

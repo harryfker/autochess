@@ -1,0 +1,1260 @@
+{
+  "version": "2.9.3",
+  "date": "2026-09-05",
+  "author": "绮梦者-美术设计师",
+  "tribeColors": {
+    "gear": {
+      "main": "#C9A227",
+      "dark": "#8A6E12",
+      "light": "#F4E3AC"
+    },
+    "wild": {
+      "main": "#3E7C4F",
+      "dark": "#275534",
+      "light": "#C4DECB"
+    },
+    "tide": {
+      "main": "#3A6EA5",
+      "dark": "#254B70",
+      "light": "#BCD5EA"
+    },
+    "neutral": {
+      "main": "#8C8A84",
+      "dark": "#5F5E59",
+      "light": "#DAD8D1"
+    }
+  },
+  "tierColors": {
+    "1": "#A09C92",
+    "2": "#4E8B5E",
+    "3": "#4E86B8",
+    "4": "#9B59B6",
+    "5": "#C97724",
+    "6": "#B8404F"
+  },
+  "keywords": [
+    "圣盾",
+    "嘲讽",
+    "战吼",
+    "光环",
+    "战斗开始时",
+    "亡语",
+    "顺劈",
+    "风怒",
+    "剧毒",
+    "复生"
+  ],
+  "icons": {
+    "铜壳哨兵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 1,
+      "hp": 1,
+      "keywords": [
+        "圣盾",
+        "嘲讽"
+      ],
+      "file": "assets/icons/铜壳哨兵.svg",
+      "golden2star": "assets/icons/golden/铜壳哨兵.svg",
+      "triple3star": "assets/icons/triple/铜壳哨兵.svg"
+    },
+    "发条信使": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 2,
+      "atk": 2,
+      "hp": 2,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/发条信使.svg",
+      "golden2star": "assets/icons/golden/发条信使.svg",
+      "triple3star": "assets/icons/triple/发条信使.svg"
+    },
+    "曲柄装配匠": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/曲柄装配匠.svg",
+      "golden2star": "assets/icons/golden/曲柄装配匠.svg",
+      "triple3star": "assets/icons/triple/曲柄装配匠.svg"
+    },
+    "链轮卫兵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/链轮卫兵.svg",
+      "golden2star": "assets/icons/golden/链轮卫兵.svg",
+      "triple3star": "assets/icons/triple/链轮卫兵.svg"
+    },
+    "蓄压撞锤": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/蓄压撞锤.svg",
+      "golden2star": "assets/icons/golden/蓄压撞锤.svg",
+      "triple3star": "assets/icons/triple/蓄压撞锤.svg"
+    },
+    "螺丝骑兵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 3,
+      "hp": 1,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/螺丝骑兵.svg",
+      "golden2star": "assets/icons/golden/螺丝骑兵.svg",
+      "triple3star": "assets/icons/triple/螺丝骑兵.svg"
+    },
+    "柴窝母狼": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 1,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/柴窝母狼.svg",
+      "golden2star": "assets/icons/golden/柴窝母狼.svg",
+      "triple3star": "assets/icons/triple/柴窝母狼.svg"
+    },
+    "浆果刺猬": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/浆果刺猬.svg",
+      "golden2star": "assets/icons/golden/浆果刺猬.svg",
+      "triple3star": "assets/icons/triple/浆果刺猬.svg"
+    },
+    "苔穴土拨鼠": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/苔穴土拨鼠.svg",
+      "golden2star": "assets/icons/golden/苔穴土拨鼠.svg",
+      "triple3star": "assets/icons/triple/苔穴土拨鼠.svg"
+    },
+    "贝壳歌者": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 1,
+      "atk": 1,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/贝壳歌者.svg",
+      "golden2star": "assets/icons/golden/贝壳歌者.svg",
+      "triple3star": "assets/icons/triple/贝壳歌者.svg"
+    },
+    "潮池枪手": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 1,
+      "atk": 2,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/潮池枪手.svg",
+      "golden2star": "assets/icons/golden/潮池枪手.svg",
+      "triple3star": "assets/icons/triple/潮池枪手.svg"
+    },
+    "乘流幼豚": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 1,
+      "atk": 2,
+      "hp": 1,
+      "keywords": [
+        "风怒"
+      ],
+      "file": "assets/icons/乘流幼豚.svg",
+      "golden2star": "assets/icons/golden/乘流幼豚.svg",
+      "triple3star": "assets/icons/triple/乘流幼豚.svg"
+    },
+    "绷带傀儡": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "复生"
+      ],
+      "file": "assets/icons/绷带傀儡.svg",
+      "golden2star": "assets/icons/golden/绷带傀儡.svg",
+      "triple3star": "assets/icons/triple/绷带傀儡.svg"
+    },
+    "游丝调校师": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 1,
+      "atk": 2,
+      "hp": 1,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/游丝调校师.svg",
+      "golden2star": "assets/icons/golden/游丝调校师.svg",
+      "triple3star": "assets/icons/triple/游丝调校师.svg"
+    },
+    "暖巢羽雀": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/暖巢羽雀.svg",
+      "golden2star": "assets/icons/golden/暖巢羽雀.svg",
+      "triple3star": "assets/icons/triple/暖巢羽雀.svg"
+    },
+    "装甲货运兽": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "圣盾"
+      ],
+      "file": "assets/icons/装甲货运兽.svg",
+      "golden2star": "assets/icons/golden/装甲货运兽.svg",
+      "triple3star": "assets/icons/triple/装甲货运兽.svg"
+    },
+    "装甲军士": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/装甲军士.svg",
+      "golden2star": "assets/icons/golden/装甲军士.svg",
+      "triple3star": "assets/icons/triple/装甲军士.svg"
+    },
+    "獠牙猎首者": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 2,
+      "atk": 4,
+      "hp": 2,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/獠牙猎首者.svg",
+      "golden2star": "assets/icons/golden/獠牙猎首者.svg",
+      "triple3star": "assets/icons/triple/獠牙猎首者.svg"
+    },
+    "育巢蜘蛛": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/育巢蜘蛛.svg",
+      "golden2star": "assets/icons/golden/育巢蜘蛛.svg",
+      "triple3star": "assets/icons/triple/育巢蜘蛛.svg"
+    },
+    "嚎月头狼": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 3,
+      "atk": 3,
+      "hp": 4,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/嚎月头狼.svg",
+      "golden2star": "assets/icons/golden/嚎月头狼.svg",
+      "triple3star": "assets/icons/triple/嚎月头狼.svg"
+    },
+    "泡沫歌姬": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/泡沫歌姬.svg",
+      "golden2star": "assets/icons/golden/泡沫歌姬.svg",
+      "triple3star": "assets/icons/triple/泡沫歌姬.svg"
+    },
+    "蜕壳巨蟹": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 2,
+      "atk": 1,
+      "hp": 5,
+      "keywords": [
+        "嘲讽"
+      ],
+      "file": "assets/icons/蜕壳巨蟹.svg",
+      "golden2star": "assets/icons/golden/蜕壳巨蟹.svg",
+      "triple3star": "assets/icons/triple/蜕壳巨蟹.svg"
+    },
+    "旗鱼剑客": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 2,
+      "atk": 3,
+      "hp": 2,
+      "keywords": [
+        "风怒"
+      ],
+      "file": "assets/icons/旗鱼剑客.svg",
+      "golden2star": "assets/icons/golden/旗鱼剑客.svg",
+      "triple3star": "assets/icons/triple/旗鱼剑客.svg"
+    },
+    "情报贩子": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/情报贩子.svg",
+      "golden2star": "assets/icons/golden/情报贩子.svg",
+      "triple3star": "assets/icons/triple/情报贩子.svg"
+    },
+    "偏转机兵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 3,
+      "atk": 2,
+      "hp": 4,
+      "keywords": [],
+      "file": "assets/icons/偏转机兵.svg",
+      "golden2star": "assets/icons/golden/偏转机兵.svg",
+      "triple3star": "assets/icons/triple/偏转机兵.svg"
+    },
+    "铆钉巨盾": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 3,
+      "atk": 3,
+      "hp": 5,
+      "keywords": [
+        "圣盾",
+        "嘲讽"
+      ],
+      "file": "assets/icons/铆钉巨盾.svg",
+      "golden2star": "assets/icons/golden/铆钉巨盾.svg",
+      "triple3star": "assets/icons/triple/铆钉巨盾.svg"
+    },
+    "圣徽巡礼官": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 3,
+      "atk": 2,
+      "hp": 4,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/圣徽巡礼官.svg",
+      "golden2star": "assets/icons/golden/圣徽巡礼官.svg",
+      "triple3star": "assets/icons/triple/圣徽巡礼官.svg"
+    },
+    "葬火狼灵": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 3,
+      "atk": 4,
+      "hp": 4,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/葬火狼灵.svg",
+      "golden2star": "assets/icons/golden/葬火狼灵.svg",
+      "triple3star": "assets/icons/triple/葬火狼灵.svg"
+    },
+    "拾骨兀鹫": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 3,
+      "atk": 2,
+      "hp": 4,
+      "keywords": [],
+      "file": "assets/icons/拾骨兀鹫.svg",
+      "golden2star": "assets/icons/golden/拾骨兀鹫.svg",
+      "triple3star": "assets/icons/triple/拾骨兀鹫.svg"
+    },
+    "裂地猛犸": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 3,
+      "atk": 4,
+      "hp": 5,
+      "keywords": [
+        "顺劈"
+      ],
+      "file": "assets/icons/裂地猛犸.svg",
+      "golden2star": "assets/icons/golden/裂地猛犸.svg",
+      "triple3star": "assets/icons/triple/裂地猛犸.svg"
+    },
+    "深潮国王": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 3,
+      "atk": 4,
+      "hp": 4,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/深潮国王.svg",
+      "golden2star": "assets/icons/golden/深潮国王.svg",
+      "triple3star": "assets/icons/triple/深潮国王.svg"
+    },
+    "毒鳍巫医": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 3,
+      "atk": 1,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/毒鳍巫医.svg",
+      "golden2star": "assets/icons/golden/毒鳍巫医.svg",
+      "triple3star": "assets/icons/triple/毒鳍巫医.svg"
+    },
+    "怒涛战旗手": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 3,
+      "atk": 3,
+      "hp": 3,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/怒涛战旗手.svg",
+      "golden2star": "assets/icons/golden/怒涛战旗手.svg",
+      "triple3star": "assets/icons/triple/怒涛战旗手.svg"
+    },
+    "竞技场冠军": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 4,
+      "atk": 5,
+      "hp": 6,
+      "keywords": [
+        "圣盾",
+        "嘲讽"
+      ],
+      "file": "assets/icons/竞技场冠军.svg",
+      "golden2star": "assets/icons/golden/竞技场冠军.svg",
+      "triple3star": "assets/icons/triple/竞技场冠军.svg"
+    },
+    "圣徽大法官": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 4,
+      "atk": 4,
+      "hp": 6,
+      "keywords": [
+        "战斗开始时"
+      ],
+      "file": "assets/icons/圣徽大法官.svg",
+      "golden2star": "assets/icons/golden/圣徽大法官.svg",
+      "triple3star": "assets/icons/triple/圣徽大法官.svg"
+    },
+    "余晖收藏家": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 4,
+      "atk": 2,
+      "hp": 8,
+      "keywords": [],
+      "file": "assets/icons/余晖收藏家.svg",
+      "golden2star": "assets/icons/golden/余晖收藏家.svg",
+      "triple3star": "assets/icons/triple/余晖收藏家.svg"
+    },
+    "森林之王·苍牙": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 4,
+      "atk": 6,
+      "hp": 6,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/森林之王·苍牙.svg",
+      "golden2star": "assets/icons/golden/森林之王·苍牙.svg",
+      "triple3star": "assets/icons/triple/森林之王·苍牙.svg"
+    },
+    "轮回萨满": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 4,
+      "atk": 2,
+      "hp": 6,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/轮回萨满.svg",
+      "golden2star": "assets/icons/golden/轮回萨满.svg",
+      "triple3star": "assets/icons/triple/轮回萨满.svg"
+    },
+    "深渊巨兽·涡流": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 4,
+      "atk": 6,
+      "hp": 6,
+      "keywords": [
+        "剧毒"
+      ],
+      "file": "assets/icons/深渊巨兽·涡流.svg",
+      "golden2star": "assets/icons/golden/深渊巨兽·涡流.svg",
+      "triple3star": "assets/icons/triple/深渊巨兽·涡流.svg"
+    },
+    "潮汐女王": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 4,
+      "atk": 4,
+      "hp": 5,
+      "keywords": [],
+      "file": "assets/icons/潮汐女王.svg",
+      "golden2star": "assets/icons/golden/潮汐女王.svg",
+      "triple3star": "assets/icons/triple/潮汐女王.svg"
+    },
+    "落雷元素": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 4,
+      "atk": 3,
+      "hp": 6,
+      "keywords": [
+        "战斗开始时"
+      ],
+      "file": "assets/icons/落雷元素.svg",
+      "golden2star": "assets/icons/golden/落雷元素.svg",
+      "triple3star": "assets/icons/triple/落雷元素.svg"
+    },
+    "永恒角斗士": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 4,
+      "atk": 6,
+      "hp": 6,
+      "keywords": [
+        "复生"
+      ],
+      "file": "assets/icons/永恒角斗士.svg",
+      "golden2star": "assets/icons/golden/永恒角斗士.svg",
+      "triple3star": "assets/icons/triple/永恒角斗士.svg"
+    },
+    "注油工兵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/注油工兵.svg",
+      "golden2star": "assets/icons/golden/注油工兵.svg",
+      "triple3star": "assets/icons/triple/注油工兵.svg"
+    },
+    "拾贝寄居蟹": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 2,
+      "atk": 2,
+      "hp": 3,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/拾贝寄居蟹.svg",
+      "golden2star": "assets/icons/golden/拾贝寄居蟹.svg",
+      "triple3star": "assets/icons/triple/拾贝寄居蟹.svg"
+    },
+    "见习佣兵": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 2,
+      "atk": 2,
+      "hp": 2,
+      "keywords": [
+        "圣盾"
+      ],
+      "file": "assets/icons/见习佣兵.svg",
+      "golden2star": "assets/icons/golden/见习佣兵.svg",
+      "triple3star": "assets/icons/triple/见习佣兵.svg"
+    },
+    "殉爆机俑": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 2,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/殉爆机俑.svg",
+      "golden2star": "assets/icons/golden/殉爆机俑.svg",
+      "triple3star": "assets/icons/triple/殉爆机俑.svg"
+    },
+    "鎏金掌旗官": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 3,
+      "atk": 3,
+      "hp": 4,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/鎏金掌旗官.svg",
+      "golden2star": "assets/icons/golden/鎏金掌旗官.svg",
+      "triple3star": "assets/icons/triple/鎏金掌旗官.svg"
+    },
+    "追风猎豹": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 2,
+      "atk": 3,
+      "hp": 2,
+      "keywords": [
+        "风怒"
+      ],
+      "file": "assets/icons/追风猎豹.svg",
+      "golden2star": "assets/icons/golden/追风猎豹.svg",
+      "triple3star": "assets/icons/triple/追风猎豹.svg"
+    },
+    "荆棘藤蔓": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 2,
+      "atk": 1,
+      "hp": 4,
+      "keywords": [
+        "嘲讽",
+        "亡语"
+      ],
+      "file": "assets/icons/荆棘藤蔓.svg",
+      "golden2star": "assets/icons/golden/荆棘藤蔓.svg",
+      "triple3star": "assets/icons/triple/荆棘藤蔓.svg"
+    },
+    "劈骨屠夫": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 2,
+      "atk": 3,
+      "hp": 2,
+      "keywords": [
+        "顺劈"
+      ],
+      "file": "assets/icons/劈骨屠夫.svg",
+      "golden2star": "assets/icons/golden/劈骨屠夫.svg",
+      "triple3star": "assets/icons/triple/劈骨屠夫.svg"
+    },
+    "双联磨轮": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 3,
+      "atk": 3,
+      "hp": 4,
+      "keywords": [
+        "风怒"
+      ],
+      "file": "assets/icons/双联磨轮.svg",
+      "golden2star": "assets/icons/golden/双联磨轮.svg",
+      "triple3star": "assets/icons/triple/双联磨轮.svg"
+    },
+    "腐生双生鹿": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 4,
+      "atk": 4,
+      "hp": 3,
+      "keywords": [
+        "复生",
+        "亡语"
+      ],
+      "file": "assets/icons/腐生双生鹿.svg",
+      "golden2star": "assets/icons/golden/腐生双生鹿.svg",
+      "triple3star": "assets/icons/triple/腐生双生鹿.svg"
+    },
+    "掘尸鬣狗": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 3,
+      "atk": 2,
+      "hp": 4,
+      "keywords": [],
+      "file": "assets/icons/掘尸鬣狗.svg",
+      "golden2star": "assets/icons/golden/掘尸鬣狗.svg",
+      "triple3star": "assets/icons/triple/掘尸鬣狗.svg"
+    },
+    "毒棘河豚": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 3,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/毒棘河豚.svg",
+      "golden2star": "assets/icons/golden/毒棘河豚.svg",
+      "triple3star": "assets/icons/triple/毒棘河豚.svg"
+    },
+    "涌泉祭司": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 3,
+      "atk": 2,
+      "hp": 5,
+      "keywords": [],
+      "file": "assets/icons/涌泉祭司.svg",
+      "golden2star": "assets/icons/golden/涌泉祭司.svg",
+      "triple3star": "assets/icons/triple/涌泉祭司.svg"
+    },
+    "铁算盘账房": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 3,
+      "atk": 2,
+      "hp": 5,
+      "keywords": [],
+      "file": "assets/icons/铁算盘账房.svg",
+      "golden2star": "assets/icons/golden/铁算盘账房.svg",
+      "triple3star": "assets/icons/triple/铁算盘账房.svg"
+    },
+    "余烬锻炉": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 4,
+      "atk": 2,
+      "hp": 7,
+      "keywords": [],
+      "file": "assets/icons/余烬锻炉.svg",
+      "golden2star": "assets/icons/golden/余烬锻炉.svg",
+      "triple3star": "assets/icons/triple/余烬锻炉.svg"
+    },
+    "枯木长老": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 4,
+      "atk": 3,
+      "hp": 7,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/枯木长老.svg",
+      "golden2star": "assets/icons/golden/枯木长老.svg",
+      "triple3star": "assets/icons/triple/枯木长老.svg"
+    },
+    "熔铸巨像": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 5,
+      "atk": 4,
+      "hp": 6,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/熔铸巨像.svg",
+      "golden2star": "assets/icons/golden/熔铸巨像.svg",
+      "triple3star": "assets/icons/triple/熔铸巨像.svg"
+    },
+    "鎏金元帅": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 5,
+      "atk": 4,
+      "hp": 6,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/鎏金元帅.svg",
+      "golden2star": "assets/icons/golden/鎏金元帅.svg",
+      "triple3star": "assets/icons/triple/鎏金元帅.svg"
+    },
+    "殉爆方阵": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 5,
+      "atk": 3,
+      "hp": 7,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/殉爆方阵.svg",
+      "golden2star": "assets/icons/golden/殉爆方阵.svg",
+      "triple3star": "assets/icons/triple/殉爆方阵.svg"
+    },
+    "兽骨招魂幡": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 5,
+      "atk": 3,
+      "hp": 5,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/兽骨招魂幡.svg",
+      "golden2star": "assets/icons/golden/兽骨招魂幡.svg",
+      "triple3star": "assets/icons/triple/兽骨招魂幡.svg"
+    },
+    "双生古树": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 5,
+      "atk": 4,
+      "hp": 5,
+      "keywords": [
+        "复生",
+        "亡语"
+      ],
+      "file": "assets/icons/双生古树.svg",
+      "golden2star": "assets/icons/golden/双生古树.svg",
+      "triple3star": "assets/icons/triple/双生古树.svg"
+    },
+    "裂风隼": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 5,
+      "atk": 6,
+      "hp": 6,
+      "keywords": [
+        "风怒",
+        "亡语"
+      ],
+      "file": "assets/icons/裂风隼.svg",
+      "golden2star": "assets/icons/golden/裂风隼.svg",
+      "triple3star": "assets/icons/triple/裂风隼.svg"
+    },
+    "沧澜巨灵": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 5,
+      "atk": 6,
+      "hp": 5,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/沧澜巨灵.svg",
+      "golden2star": "assets/icons/golden/沧澜巨灵.svg",
+      "triple3star": "assets/icons/triple/沧澜巨灵.svg"
+    },
+    "雾瘴海巫": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 5,
+      "atk": 3,
+      "hp": 6,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/雾瘴海巫.svg",
+      "golden2star": "assets/icons/golden/雾瘴海巫.svg",
+      "triple3star": "assets/icons/triple/雾瘴海巫.svg"
+    },
+    "断浪鲸": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 5,
+      "atk": 8,
+      "hp": 5,
+      "keywords": [
+        "顺劈"
+      ],
+      "file": "assets/icons/断浪鲸.svg",
+      "golden2star": "assets/icons/golden/断浪鲸.svg",
+      "triple3star": "assets/icons/triple/断浪鲸.svg"
+    },
+    "云游星商": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 5,
+      "atk": 4,
+      "hp": 5,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/云游星商.svg",
+      "golden2star": "assets/icons/golden/云游星商.svg",
+      "triple3star": "assets/icons/triple/云游星商.svg"
+    },
+    "酒馆医师": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 5,
+      "atk": 5,
+      "hp": 7,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/酒馆医师.svg",
+      "golden2star": "assets/icons/golden/酒馆医师.svg",
+      "triple3star": "assets/icons/triple/酒馆医师.svg"
+    },
+    "海渊唤潮者": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 5,
+      "atk": 3,
+      "hp": 7,
+      "keywords": [
+        "战斗开始时"
+      ],
+      "file": "assets/icons/海渊唤潮者.svg",
+      "golden2star": "assets/icons/golden/海渊唤潮者.svg",
+      "triple3star": "assets/icons/triple/海渊唤潮者.svg"
+    },
+    "圣械方舟": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 6,
+      "atk": 5,
+      "hp": 8,
+      "keywords": [
+        "战斗开始时"
+      ],
+      "file": "assets/icons/圣械方舟.svg",
+      "golden2star": "assets/icons/golden/圣械方舟.svg",
+      "triple3star": "assets/icons/triple/圣械方舟.svg"
+    },
+    "不灭引擎": {
+      "tribe": "齿轮族",
+      "tribeKey": "gear",
+      "tier": 6,
+      "atk": 5,
+      "hp": 7,
+      "keywords": [],
+      "file": "assets/icons/不灭引擎.svg",
+      "golden2star": "assets/icons/golden/不灭引擎.svg",
+      "triple3star": "assets/icons/triple/不灭引擎.svg"
+    },
+    "万灵终葬": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 6,
+      "atk": 4,
+      "hp": 6,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/万灵终葬.svg",
+      "golden2star": "assets/icons/golden/万灵终葬.svg",
+      "triple3star": "assets/icons/triple/万灵终葬.svg"
+    },
+    "兽群之母": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 6,
+      "atk": 5,
+      "hp": 8,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/兽群之母.svg",
+      "golden2star": "assets/icons/golden/兽群之母.svg",
+      "triple3star": "assets/icons/triple/兽群之母.svg"
+    },
+    "林海之心": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 6,
+      "atk": 6,
+      "hp": 7,
+      "keywords": [
+        "亡语"
+      ],
+      "file": "assets/icons/林海之心.svg",
+      "golden2star": "assets/icons/golden/林海之心.svg",
+      "triple3star": "assets/icons/triple/林海之心.svg"
+    },
+    "渊王怒澜": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 6,
+      "atk": 5,
+      "hp": 7,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/渊王怒澜.svg",
+      "golden2star": "assets/icons/golden/渊王怒澜.svg",
+      "triple3star": "assets/icons/triple/渊王怒澜.svg"
+    },
+    "渊诅之主": {
+      "tribe": "潮汐族",
+      "tribeKey": "tide",
+      "tier": 6,
+      "atk": 4,
+      "hp": 6,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/渊诅之主.svg",
+      "golden2star": "assets/icons/golden/渊诅之主.svg",
+      "triple3star": "assets/icons/triple/渊诅之主.svg"
+    },
+    "天罚巨像": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 6,
+      "atk": 5,
+      "hp": 7,
+      "keywords": [
+        "战斗开始时"
+      ],
+      "file": "assets/icons/天罚巨像.svg",
+      "golden2star": "assets/icons/golden/天罚巨像.svg",
+      "triple3star": "assets/icons/triple/天罚巨像.svg"
+    },
+    "庆典司仪": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 6,
+      "atk": 5,
+      "hp": 7,
+      "keywords": [
+        "战吼"
+      ],
+      "file": "assets/icons/庆典司仪.svg",
+      "golden2star": "assets/icons/golden/庆典司仪.svg",
+      "triple3star": "assets/icons/triple/庆典司仪.svg"
+    },
+    "酒馆老板·老橡木": {
+      "tribe": "中立",
+      "tribeKey": "neutral",
+      "tier": 6,
+      "atk": 5,
+      "hp": 8,
+      "keywords": [
+        "光环"
+      ],
+      "file": "assets/icons/酒馆老板·老橡木.svg",
+      "golden2star": "assets/icons/golden/酒馆老板·老橡木.svg",
+      "triple3star": "assets/icons/triple/酒馆老板·老橡木.svg"
+    },
+    "幼狼": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 3,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/幼狼.svg",
+      "golden2star": "assets/icons/golden/幼狼.svg",
+      "triple3star": "assets/icons/triple/幼狼.svg"
+    },
+    "土拨鼠": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 1,
+      "keywords": [],
+      "file": "assets/icons/土拨鼠.svg",
+      "golden2star": "assets/icons/golden/土拨鼠.svg",
+      "triple3star": "assets/icons/triple/土拨鼠.svg"
+    },
+    "织网蛛": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/织网蛛.svg",
+      "golden2star": "assets/icons/golden/织网蛛.svg",
+      "triple3star": "assets/icons/triple/织网蛛.svg"
+    },
+    "巨狼": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 4,
+      "hp": 4,
+      "keywords": [],
+      "file": "assets/icons/巨狼.svg",
+      "golden2star": "assets/icons/golden/巨狼.svg",
+      "triple3star": "assets/icons/triple/巨狼.svg"
+    },
+    "小刺猬": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 2,
+      "hp": 2,
+      "keywords": [],
+      "file": "assets/icons/小刺猬.svg",
+      "golden2star": "assets/icons/golden/小刺猬.svg",
+      "triple3star": "assets/icons/triple/小刺猬.svg"
+    },
+    "腐芽鹿": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 3,
+      "hp": 3,
+      "keywords": [],
+      "file": "assets/icons/腐芽鹿.svg",
+      "golden2star": "assets/icons/golden/腐芽鹿.svg",
+      "triple3star": "assets/icons/triple/腐芽鹿.svg"
+    },
+    "狼崽": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 1,
+      "hp": 1,
+      "keywords": [],
+      "file": "assets/icons/狼崽.svg",
+      "golden2star": "assets/icons/golden/狼崽.svg",
+      "triple3star": "assets/icons/triple/狼崽.svg"
+    },
+    "树苗": {
+      "tribe": "荒野族",
+      "tribeKey": "wild",
+      "tier": 1,
+      "atk": 3,
+      "hp": 3,
+      "keywords": [],
+      "file": "assets/icons/树苗.svg",
+      "golden2star": "assets/icons/golden/树苗.svg",
+      "triple3star": "assets/icons/triple/树苗.svg"
+    }
+  },
+  "portraits": {
+    "英雄_布伦希尔": {
+      "name": "铁腕执政官·布伦希尔",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_布伦希尔.svg"
+    },
+    "英雄_艾洛蒂": {
+      "name": "时之旅人·艾洛蒂",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_艾洛蒂.svg"
+    },
+    "英雄_摩根": {
+      "name": "驯潮师·摩根",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_摩根.svg"
+    },
+    "英雄_薇拉": {
+      "name": "锻盾师·薇拉",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_薇拉.svg"
+    },
+    "英雄_霍克": {
+      "name": "拾荒商人·霍克",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_霍克.svg"
+    },
+    "英雄_苔莉": {
+      "name": "兽穴看守·苔莉",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_苔莉.svg"
+    },
+    "英雄_喀尔": {
+      "name": "图腾行者·喀尔",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_喀尔.svg"
+    },
+    "英雄_澜": {
+      "name": "驭浪祭司·澜",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_澜.svg"
+    },
+    "英雄_杜恩": {
+      "name": "珍品收藏家·杜恩",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_杜恩.svg"
+    },
+    "英雄_凯拉": {
+      "name": "末路剑客·凯拉",
+      "kind": "hero",
+      "file": "assets/portraits/英雄_凯拉.svg"
+    },
+    "AI_铁须": {
+      "name": "锅炉城主·铁须",
+      "kind": "ai",
+      "file": "assets/portraits/AI_铁须.svg"
+    },
+    "AI_苍爪": {
+      "name": "林海兽王·苍爪",
+      "kind": "ai",
+      "file": "assets/portraits/AI_苍爪.svg"
+    },
+    "AI_潮语": {
+      "name": "环礁祭司·潮语",
+      "kind": "ai",
+      "file": "assets/portraits/AI_潮语.svg"
+    },
+    "AI_独眼": {
+      "name": "佣兵队长·独眼",
+      "kind": "ai",
+      "file": "assets/portraits/AI_独眼.svg"
+    },
+    "AI_兜帽": {
+      "name": "神秘旅人·兜帽",
+      "kind": "ai",
+      "file": "assets/portraits/AI_兜帽.svg"
+    }
+  },
+  "ui": {
+    "ui_招募主界面": {
+      "desc": "招募主界面：商店/场上7格/金币/酒馆等级",
+      "file": "assets/ui/ui_招募主界面.svg"
+    },
+    "ui_战斗界面": {
+      "desc": "战斗界面：出手高亮/伤害飘字/速度控制",
+      "file": "assets/ui/ui_战斗界面.svg"
+    },
+    "ui_三连合成演出": {
+      "desc": "三连合成演出：金色闪光+全屏提示+三选一",
+      "file": "assets/ui/ui_三连合成演出.svg"
+    },
+    "ui_结算排名界面": {
+      "desc": "结算排名：领奖台/出局顺序/战绩",
+      "file": "assets/ui/ui_结算排名界面.svg"
+    },
+    "ui_风格规范速查表": {
+      "desc": "Q版矢量风总规范速查表",
+      "file": "assets/ui/ui_风格规范速查表.svg"
+    }
+  },
+  "notes": "V4：V20 改版 m53 见习佣兵新增「圣盾」关键词，base/golden/triple 三张卡面按 Q 版模板重生成并加注圣盾徽章 | ★V2.2 新增 m58 链轮卫兵（T1齿轮·亡语传盾），正式三变体卡面（齿轮框+亡语徽章+档位圆1+2/3星标）已按Q版模板生成替换占位版。 | ★V2.9.1（青羽-视觉设计师）：①补齐 m59 蓄压撞锤 base/golden/triple 正式卡面（此前 80 卡唯一缺正式卡面）②新增衍生物 t05~t08（小刺猬/腐芽鹿/狼崽/树苗）三态卡面 + icons.js 占位兜底③新增 h04~h10 七位英雄正式立绘（薇拉/霍克/苔莉/喀尔/澜/杜恩/凯拉）④22 张 T5/T6 卡面静态档位角标由 T4 紫修正为定稿色（T5 #C97724 / T6 #B8404F，与 style.css .tier-5/.tier-6 渐变中点一致）⑤manifest 图标索引 58→88（80卡+8衍生物），英雄头像 3→10"
+}
